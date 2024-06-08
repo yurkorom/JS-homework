@@ -1,18 +1,18 @@
 // Якщо змінна більше нуля - виведіть true, менше - false
 //Перевірте це на варіантах  1, 0, -3.
 
-// console.log(1 > 0);
-// console.log(0 > 0);
-// console.log(-3 > 0);
+// console.log(1 > 0); // true
+// console.log(0 > 0); // false
+// console.log(-3 > 0); // false
 
 // Якщо змінна ="test" - виведіть true,
 //Перевірте це на варіантах  'test', "qwerty", true
 
 // value = "test";
-// console.log(value === "test");
-// console.log(value === "test");
-// console.log(value === "qwerty");
-// console.log(value === true);
+// console.log(value === "test"); // true
+// console.log(value === 'test'); // true
+// console.log(value === "qwerty"); // false
+// console.log(value === true); // false
 
 // Якщо змінна більше 10 -  відніміть 5,
 //менше - додайте 5, результат виведіть в консоль
@@ -22,29 +22,29 @@
 // if (a > 10) {
 //   console.log(a - 5);
 // } else {
-//   console.log(a + 5);
+//   console.log(a + 5); // 6
 // }
 
-// const a = 10;
-// if (a > 10) {
-//   console.log(a - 5);
-// } else {
-//   console.log(a + 5);
-// }
-
-// const a = 13;
-// if (a > 10) {
-//   console.log(a - 5);
-// } else {
-//   console.log(a + 5);
-// }
-
-// const a = prompt("Введіть число");
-// const b = Number(a);
+// const b = 10;
 // if (b > 10) {
 //   console.log(b - 5);
 // } else {
-//   console.log(b + 5);
+//   console.log(b + 5); // 15
+// }
+
+// const c = 13;
+// if (c > 10) {
+//   console.log(c - 5); // 8
+// } else {
+//   console.log(c + 5);
+// }
+
+// const d = prompt("Введіть число");
+// const f = Number(d);
+// if (f > 10) {
+//   console.log(f - 5);
+// } else {
+//   console.log(f + 5);
 // }
 
 //Зробіть сервіс який отримує число від 1 до 12
