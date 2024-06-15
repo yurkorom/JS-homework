@@ -5,6 +5,13 @@
 // console.log(0 > 0); // false
 // console.log(-3 > 0); // false
 
+// let a = 1;  // option
+// let b = 0;
+// let c = -3;
+// console.log(a > 0);
+// console.log(b > 0);
+// console.log(c > 0);
+
 // Якщо змінна ="test" - виведіть true,
 //Перевірте це на варіантах  'test', "qwerty", true
 
@@ -14,11 +21,26 @@
 // console.log(value === "qwerty"); // false
 // console.log(value === true); // false
 
+// const ex2 = (arr) => {  // option
+//   for (i in arr) {
+//     if (arr[i] === "test") {
+//       console.log(true);
+//     } else {
+//       console.log(false);
+//     }
+//   }
+// };
+// const ex2Arr = ["test", "qwerty", true];
+// ex2(ex2Arr);
+
 // Якщо змінна більше 10 -  відніміть 5,
 //менше - додайте 5, результат виведіть в консоль
 //Перевірте це на варіантах  1, 10, 13.
 
 // const a = 1;
+
+// (a >= 10) ? console.log(a - 5) : console.log(a + 5); // option
+
 // if (a > 10) {
 //   console.log(a - 5);
 // } else {
@@ -104,6 +126,30 @@
 //     break;
 //   default:
 //     alert("Їх всього 12");
+// }
+
+// const months = { // option
+//   1: "Jan",
+//   2: "Feb",
+//   3: "Mar",
+//   4: "Apr",
+//   5: "May",
+//   6: "Jun",
+//   7: "Jul",
+//   8: "Aug",
+//   9: "Sep",
+//   10: "Oct",
+//   11: "Nov",
+//   12: "Dec",
+// };
+
+// let num = prompt("Type month 1-12");
+// num = Number(num);
+
+// if (num >= 1 && num <= 12) {
+//   console.log(months[num]);
+// } else {
+//   console.log("You are trying to type a value which does not exist");
 // }
 
 //Зробіть сервіс який отримує тризначне число
